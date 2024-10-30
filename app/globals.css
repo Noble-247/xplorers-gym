@@ -2,26 +2,55 @@
 @tailwind components;
 @tailwind utilities;
 
-:root {
-  --background: #ffffff;
-  --foreground: #171717;
+/* Font Style */
+.montserrat {
+  font-family: var(--font-montserrat);
 }
 
-@media (prefers-color-scheme: dark) {
-  :root {
-    --background: #0a0a0a;
-    --foreground: #ededed;
-  }
+.btn {
+  @apply text-gray-100 w-fit mx-auto py-[0.9rem] px-[2rem] bg-primary rounded-[1.5rem] transition-all;
 }
 
-body {
-  color: var(--foreground);
-  background: var(--background);
-  font-family: Arial, Helvetica, sans-serif;
+.btn.lg {
+  @apply py-[1.2rem] px-[3rem] rounded-[2rem] text-base;
 }
 
-@layer utilities {
-  .text-balance {
-    text-wrap: balance;
-  }
+.btn.sm {
+  @apply py-[0.4rem] px-[1.2rem];
 }
+
+.image {
+  @apply block object-cover w-full;
+}
+
+/***** custom colors for tailwindCSS Project *****/
+
+/* .primary-color {
+  color: ​#007fff;
+}
+.primary-color-variant {
+  color:​#4da6ff;
+}
+.secondary-color {
+  color: #ffb116;
+}
+.gray-color-100 {
+  color: ​#e9f0f7;
+}
+.gray-color-200 {
+  color: #afbfd0;
+}
+.gray-color-300 {
+  color: ​#8da3b9;
+}
+.gray-color-400 {
+  color: ​#586979;
+}
+.gray-color-500 {
+  color: ​#24405c;
+}
+.gray-color-600 {
+  color: ​#142639;
+} */
+
+/***** End custom colors for tailwindCSS Project *****/
