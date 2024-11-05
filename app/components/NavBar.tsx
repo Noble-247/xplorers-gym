@@ -39,7 +39,7 @@ export default function NavBar() {
             <Link
               className={`${
                 currentPath === "/"
-                  ? "lg:relative lg:after:content-[''] lg:after:block lg:after:w-[1.2rem] lg:after:h-[1.2rem] lg:after:bg-primary lg:after:absolute lg:after:left-[calc(50%-0.6rem)] lg:after:rotate-45 lg:after:mt-[0.9rem]"
+                  ? "lg:relative lg:after:content-[''] lg:after:block lg:after:w-[1.2rem] lg:after:h-[1.2rem] lg:after:bg-primary lg:after:absolute lg:after:left-[calc(50%-0.6rem)] lg:after:rotate-45 lg:after:mt-[5rem]"
                   : ""
               } transition-all hover:text-secondary bg-primary h-full w-full flex items-center pt-[1rem] pr-[5rem] pb-[1rem] ps-[3rem] lg:p-0`}
               href={"/"}
@@ -51,7 +51,7 @@ export default function NavBar() {
             <Link
               className={`${
                 currentPath === "/about"
-                  ? "lg:relative lg:after:content-[''] lg:after:block lg:after:w-[1.2rem] lg:after:h-[1.2rem] lg:after:bg-primary lg:after:absolute lg:after:left-[calc(50%-0.6rem)] lg:after:rotate-45 lg:after:mt-[0.9rem]"
+                  ? "lg:relative lg:after:content-[''] lg:after:block lg:after:w-[1.2rem] lg:after:h-[1.2rem] lg:after:bg-primary lg:after:absolute lg:after:left-[calc(50%-0.6rem)] lg:after:rotate-45 lg:after:mt-[5rem]"
                   : ""
               }  transition-all hover:text-secondary bg-primary h-full w-full flex items-center pt-[1rem] pr-[5rem] pb-[1rem] ps-[3rem] lg:p-0`}
               href={"/about"}
@@ -63,7 +63,7 @@ export default function NavBar() {
             <Link
               className={`${
                 currentPath === "/gallery"
-                  ? "lg:relative lg:after:content-[''] lg:after:block lg:after:w-[1.2rem] lg:after:h-[1.2rem] lg:after:bg-primary lg:after:absolute lg:after:left-[calc(50%-0.6rem)] lg:after:rotate-45 lg:after:mt-[0.9rem]"
+                  ? "lg:relative lg:after:content-[''] lg:after:block lg:after:w-[1.2rem] lg:after:h-[1.2rem] lg:after:bg-primary lg:after:absolute lg:after:left-[calc(50%-0.6rem)] lg:after:rotate-45 lg:after:mt-[5rem]"
                   : ""
               }  transition-all hover:text-secondary bg-primary h-full w-full flex items-center pt-[1rem] pr-[5rem] pb-[1rem] ps-[3rem] lg:p-0`}
               href={"/gallery"}
@@ -75,7 +75,7 @@ export default function NavBar() {
             <Link
               className={`${
                 currentPath === "/plans"
-                  ? "lg:relative lg:after:content-[''] lg:after:block lg:after:w-[1.2rem] lg:after:h-[1.2rem] lg:after:bg-primary lg:after:absolute lg:after:left-[calc(50%-0.6rem)] lg:after:rotate-45 lg:after:mt-[0.9rem]"
+                  ? "lg:relative lg:after:content-[''] lg:after:block lg:after:w-[1.2rem] lg:after:h-[1.2rem] lg:after:bg-primary lg:after:absolute lg:after:left-[calc(50%-0.6rem)] lg:after:rotate-45 lg:after:mt-[5rem]"
                   : ""
               }  transition-all hover:text-secondary bg-primary h-full w-full flex items-center pt-[1rem] pr-[5rem] pb-[1rem] ps-[3rem] lg:p-0`}
               href={"/plans"}
@@ -87,7 +87,7 @@ export default function NavBar() {
             <Link
               className={`${
                 currentPath === "/trainers"
-                  ? "lg:relative lg:after:content-[''] lg:after:block lg:after:w-[1.2rem] lg:after:h-[1.2rem] lg:after:bg-primary lg:after:absolute lg:after:left-[calc(50%-0.6rem)] lg:after:rotate-45 lg:after:mt-[0.9rem]"
+                  ? "lg:relative lg:after:content-[''] lg:after:block lg:after:w-[1.2rem] lg:after:h-[1.2rem] lg:after:bg-primary lg:after:absolute lg:after:left-[calc(50%-0.6rem)] lg:after:rotate-45 lg:after:mt-[5rem]"
                   : ""
               }  transition-all hover:text-secondary bg-primary h-full w-full flex items-center pt-[1rem] pr-[5rem] pb-[1rem] ps-[3rem] lg:p-0`}
               href={"/trainers"}
@@ -99,7 +99,7 @@ export default function NavBar() {
             <Link
               className={`${
                 currentPath === "/contact"
-                  ? "lg:relative lg:after:content-[''] lg:after:block lg:after:w-[1.2rem] lg:after:h-[1.2rem] lg:after:bg-primary lg:after:absolute lg:after:left-[calc(50%-0.6rem)] lg:after:rotate-45 lg:after:mt-[0.9rem]"
+                  ? "lg:relative lg:after:content-[''] lg:after:block lg:after:w-[1.2rem] lg:after:h-[1.2rem] lg:after:bg-primary lg:after:absolute lg:after:left-[calc(50%-0.6rem)] lg:after:rotate-45 lg:after:mt-[5rem]"
                   : ""
               }  transition-all hover:text-secondary bg-primary h-full w-full flex items-center pt-[1rem] pr-[5rem] pb-[1rem] ps-[3rem] lg:p-0`}
               href={"/contact"}
