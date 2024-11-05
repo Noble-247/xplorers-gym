@@ -7,6 +7,12 @@
   font-family: var(--font-montserrat);
 }
 
+/* Some general styles */
+
+.website_container {
+  @apply w-[90%] lg:w-[80%] max-w-[1920px] mx-auto;
+}
+
 .btn {
   @apply text-gray-100 w-fit mx-auto py-[0.9rem] px-[2rem] bg-primary rounded-[1.5rem] transition-all;
 }
@@ -54,3 +60,5 @@
 } */
 
 /***** End custom colors for tailwindCSS Project *****/
+
+/* Classes for the bar*/

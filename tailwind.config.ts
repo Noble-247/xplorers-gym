@@ -131,6 +131,16 @@ const config: Config = {
           },
         ],
       },
+      /* NavBar Keyframe */
+      keyframes: {
+        navAnimation: {
+          to: { transform: "rotateX(0)", opacity: "1" },
+        },
+      },
+      /* Navbar Animation */
+      animation: {
+        navAnimation: "navAnimation 600ms ease forwards",
+      },
     },
   },
   plugins: [],
