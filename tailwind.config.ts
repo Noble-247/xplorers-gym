@@ -23,110 +23,110 @@ const config: Config = {
         "bulls-eye": "url('/img/bullseye-gradient.svg')",
       },
       fontSize: {
-        "heading-1": [
-          "3rem",
-          {
-            lineHeight: "1.2rem",
-            fontWeight: "700",
-          },
-        ],
-        "heading-2": [
+        "xl-heading-1": [
           "2rem",
           {
-            lineHeight: "1.2rem",
+            lineHeight: "1.2",
             fontWeight: "700",
           },
         ],
-        "heading-3": [
-          "1.7rem",
+        "xl-heading-2": [
+          "1.6rem",
           {
-            lineHeight: "1.2rem",
+            lineHeight: "1.2",
             fontWeight: "700",
           },
         ],
-        "heading-4": [
-          "1.5rem",
+        "xl-heading-3": [
+          "1.4rem",
           {
-            lineHeight: "1.2rem",
+            lineHeight: "1.2",
             fontWeight: "700",
           },
         ],
-        "heading-5": [
+        "xl-heading-4": [
           "1.2rem",
           {
-            lineHeight: "1.2rem",
+            lineHeight: "1.2",
+            fontWeight: "700",
+          },
+        ],
+        "xl-heading-5": [
+          "1.1rem",
+          {
+            lineHeight: "1.2",
             fontWeight: "700",
           },
         ],
         // medium screen headings
-        "medium-heading-1": [
+        "lg-heading-1": [
           "2.2rem",
           {
-            lineHeight: "1.2rem",
+            lineHeight: "1.3",
             fontWeight: "700",
           },
         ],
-        "medium-heading-2": [
+        "lg-heading-2": [
           "2rem",
           {
-            lineHeight: "1.2rem",
+            lineHeight: "1.2",
             fontWeight: "700",
           },
         ],
-        "medium-heading-3": [
+        "lg-heading-3": [
           "1.7rem",
           {
-            lineHeight: "1.2rem",
+            lineHeight: "1.2",
             fontWeight: "700",
           },
         ],
-        "medium-heading-4": [
+        "lg-heading-4": [
           "1.4rem",
           {
-            lineHeight: "1.2rem",
+            lineHeight: "1.2",
             fontWeight: "700",
           },
         ],
-        "medium-heading-5": [
+        "lg-heading-5": [
           "1.2rem",
           {
-            lineHeight: "1.2rem",
+            lineHeight: "1.2",
             fontWeight: "700",
           },
         ],
         // small screen headings
-        "small-heading-1": [
-          "2rem",
-          {
-            lineHeight: "1.2rem",
-            fontWeight: "700",
-          },
-        ],
-        "small-heading-2": [
+        "sm-heading-1": [
           "1.7rem",
           {
-            lineHeight: "1.2rem",
+            lineHeight: "1.2",
             fontWeight: "700",
           },
         ],
-        "small-heading-3": [
+        "sm-heading-2": [
           "1.5rem",
           {
-            lineHeight: "1.2rem",
+            lineHeight: "1.2",
             fontWeight: "700",
           },
         ],
-        "small-heading-4": [
+        "sm-heading-3": [
           "1.3rem",
           {
-            lineHeight: "1.2rem",
+            lineHeight: "1.2",
             fontWeight: "700",
           },
         ],
-        "small-heading-5": [
+        "sm-heading-4": [
+          "1.2rem",
+          {
+            lineHeight: "1.2",
+            fontWeight: "700",
+          },
+        ],
+        "sm-heading-5": [
           "1.1rem",
           {
-            lineHeight: "1.2rem",
+            lineHeight: "1.2",
             fontWeight: "700",
           },
         ],

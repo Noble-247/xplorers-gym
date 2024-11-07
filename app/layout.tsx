@@ -23,7 +23,7 @@ export default function RootLayout({
   return (
     <html lang='en'>
       <body
-        className={`${montserrat_init.variable} montserrat text-gray-300 bg-cover bg-center h-screen bg-bulls-eye text-base/[1.7]`}
+        className={`${montserrat_init.variable} montserrat text-gray-300 bg-cover bg-center h-screen bg-bulls-eye text-base/[1.7] overflow-x-hidden`}
       >
         <NavBar />
         {children}
