@@ -16,7 +16,10 @@ export default function MainHeader() {
             Lorem ipsum dolor sit amet consectetur, adipisicing elit. Non, odio!
             Dolorum optio repellat quam nisi explicabo enim maiore.
           </p>
-          <Link href={"/plans"} className='btn lg'>
+          <Link
+            href={"/plans"}
+            className='btn lg hover:bg-secondary hover:text-gray-600 transition-all'
+          >
             Get Started
           </Link>
         </div>

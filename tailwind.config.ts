@@ -9,15 +9,15 @@ const config: Config = {
   theme: {
     extend: {
       colors: {
-        primary: "#007fff",
-        "primary-variant": "#4da6ff",
+        primary: "hsl(210, 100%, 50%)",
+        "primary-variant": "hsl(210, 100%, 65%",
         secondary: "#ffb116",
-        "gray-100": "#e9f0f7",
-        "gray-200": "#afbfd0",
-        "gray-300": "#8da3b9",
-        "gray-400": "#586979",
-        "gray-500": "#007fff",
-        "gray-600": "#142639",
+        "gray-100": "hsl(240, 47%, 94%)",
+        "gray-200": "hsl(240, 26%, 75%)",
+        "gray-300": "hsl(240, 24%, 64%)",
+        "gray-400": "hsl(240, 16%, 41%)",
+        "gray-500": "hsl(240, 44%, 25%)",
+        "gray-600": "hsl(240, 48%, 15%)",
       },
       backgroundImage: {
         "bulls-eye": "url('/img/bullseye-gradient.svg')",
@@ -26,35 +26,35 @@ const config: Config = {
         "xl-heading-1": [
           "2rem",
           {
-            lineHeight: "1.2",
+            lineHeight: "1.5",
             fontWeight: "700",
           },
         ],
         "xl-heading-2": [
           "1.6rem",
           {
-            lineHeight: "1.2",
+            lineHeight: "1.5",
             fontWeight: "700",
           },
         ],
         "xl-heading-3": [
           "1.4rem",
           {
-            lineHeight: "1.2",
+            lineHeight: "1.5",
             fontWeight: "700",
           },
         ],
         "xl-heading-4": [
           "1.2rem",
           {
-            lineHeight: "1.2",
+            lineHeight: "1.5",
             fontWeight: "700",
           },
         ],
         "xl-heading-5": [
           "1.1rem",
           {
-            lineHeight: "1.2",
+            lineHeight: "1.5",
             fontWeight: "700",
           },
         ],
@@ -62,35 +62,35 @@ const config: Config = {
         "lg-heading-1": [
           "2.2rem",
           {
-            lineHeight: "1.3",
+            lineHeight: "1.5",
             fontWeight: "700",
           },
         ],
         "lg-heading-2": [
           "2rem",
           {
-            lineHeight: "1.2",
+            lineHeight: "1.5",
             fontWeight: "700",
           },
         ],
         "lg-heading-3": [
           "1.7rem",
           {
-            lineHeight: "1.2",
+            lineHeight: "1.5",
             fontWeight: "700",
           },
         ],
         "lg-heading-4": [
           "1.4rem",
           {
-            lineHeight: "1.2",
+            lineHeight: "1.5",
             fontWeight: "700",
           },
         ],
         "lg-heading-5": [
           "1.2rem",
           {
-            lineHeight: "1.2",
+            lineHeight: "1.5",
             fontWeight: "700",
           },
         ],
@@ -98,35 +98,35 @@ const config: Config = {
         "sm-heading-1": [
           "1.7rem",
           {
-            lineHeight: "1.2",
+            lineHeight: "1.5",
             fontWeight: "700",
           },
         ],
         "sm-heading-2": [
           "1.5rem",
           {
-            lineHeight: "1.2",
+            lineHeight: "1.5",
             fontWeight: "700",
           },
         ],
         "sm-heading-3": [
           "1.3rem",
           {
-            lineHeight: "1.2",
+            lineHeight: "1.5",
             fontWeight: "700",
           },
         ],
         "sm-heading-4": [
           "1.2rem",
           {
-            lineHeight: "1.2",
+            lineHeight: "1.5",
             fontWeight: "700",
           },
         ],
         "sm-heading-5": [
           "1.1rem",
           {
-            lineHeight: "1.2",
+            lineHeight: "1.5",
             fontWeight: "700",
           },
         ],

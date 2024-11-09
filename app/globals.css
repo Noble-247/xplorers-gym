@@ -22,7 +22,7 @@
 }
 
 .btn.sm {
-  @apply py-[0.4rem] px-[1.2rem];
+  @apply py-[0.4rem] px-[1.2rem] text-[0.9rem];
 }
 
 .image {
@@ -53,7 +53,7 @@
   color: ​#586979;
 }
 .gray-color-500 {
-  color: ​#24405c;
+  color: ​#24245c;
 }
 .gray-color-600 {
   color: ​#142639;
