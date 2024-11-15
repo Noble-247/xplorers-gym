@@ -27,7 +27,7 @@ export default function Values() {
           <div className='grid grid-cols-[1fr] gap-12 md:gap-[4rem_3rem] md:grid-cols-[1fr_1fr] lg:gap-[3.4rem_2.4rem] mt-[4.5rem]'>
             {values.map((value) => (
               <Card
-                className='w-[84%] mx-auto lg:w-full lg:pt-14 lg:text-left lg:relative'
+                className='w-[84%] mx-auto text-center lg:w-full lg:pt-14 lg:relative'
                 key={value.id}
               >
                 <span className=' xl:-top-6 lg:-top-2 w-12 h-12 bg-primary text-gray-100 text-[1.5rem] p-[0.8rem] grid place-items-center mb-6 mx-auto rounded-2xl transition-all hover:bg-secondary hover:text-gray-600'>

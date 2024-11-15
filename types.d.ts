@@ -10,3 +10,17 @@ type Values = {
   title: string;
   description: string;
 };
+
+type Faqs = {
+  id: number;
+  question: string;
+  answer: string;
+};
+
+type Testimonials = {
+  id: number;
+  name: string;
+  quote: string;
+  occupation: string;
+  avatar: string;
+};

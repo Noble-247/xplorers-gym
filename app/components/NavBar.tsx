@@ -1,5 +1,5 @@
-/* eslint-disable @next/next/no-img-element */
 "use client";
+import Image from "next/image";
 import Link from "next/link";
 import { usePathname } from "next/navigation";
 import { useState } from "react";
@@ -28,7 +28,12 @@ export default function NavBar() {
           href={"/"}
           className='w-[7rem] block'
         >
-          <img src='/img/logo1.png' alt='Website Logo' />
+          <Image
+            src='/img/logo1.png'
+            alt='Website Logo'
+            height={121}
+            width={164}
+          />
         </Link>
         <ul
           className={`absolute top-[100%] right-0 flex flex-col gap-0 origin-top-right lg:flex lg:flex-row lg:gap-[3.5rem] lg:items-center lg:static ${
