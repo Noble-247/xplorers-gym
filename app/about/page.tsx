@@ -1,7 +1,8 @@
+/* eslint-disable @next/next/no-img-element */
 import { Metadata } from "next/types";
 import React, { Fragment } from "react";
 import Header from "../components/Header";
-import Image from "next/image";
+/* import Image from "next/image"; */
 
 export const metadata: Metadata = {
   title: "Xplorers Gym | About",
@@ -21,13 +22,8 @@ export default function About() {
 
       <section className='mt-[10rem]'>
         <div className='website_container grid grid-cols-[1fr] md:grid-cols-[40%_50%] gap-8 md:gap-12 lg:gap-[10%]'>
-          <div className='w-[80%] mx-auto md:w-[60%] overflow-hidden rounded-[50%] skew-x-[15deg] transition-all hover:skew-x-[0deg]'>
-            <Image
-              src={"/img/about1.jpg"}
-              alt='About Story'
-              width={700}
-              height={700}
-            />
+          <div className='w-[90%] mx-auto overflow-hidden rounded-full skew-x-[15deg] transition-all hover:skew-x-[0deg]'>
+            <img src={"/img/about1.jpg"} alt='About Story' />
           </div>
           <div className='about__section-content'>
             <h1 className='mb-[1.2rem] md:mb-8 text-sm-heading-1 lg:text-lg-heading-1 xl:text-xl-heading-1'>
@@ -51,7 +47,7 @@ export default function About() {
         </div>
       </section>
 
-      <section className='about__vision'>
+      <section className='mt-[10rem]'>
         <div className='website_container website_container grid grid-cols-[1fr] md:grid-cols-[40%_50%] gap-8 md:gap-12 lg:gap-[10%]'>
           <div className='about__section-content'>
             <h1 className="mb-[1.2rem] md:mb-8 text-sm-heading-1 lg:text-lg-heading-1 xl:text-xl-heading-1'">
@@ -68,18 +64,13 @@ export default function About() {
               velit tempore illo?
             </p>
           </div>
-          <div className='w-[80%] mx-auto md:w-[60%] overflow-hidden rounded-[50%] skew-x-[-15deg] transition-all hover:skew-x-[0deg] grid-rows-[1]'>
-            <Image
-              src={"/img/about2.jpg"}
-              alt='About Vision'
-              width={700}
-              height={700}
-            />
+          <div className='w-[90%] mx-auto overflow-hidden rounded-full skew-x-[-15deg] transition-all hover:skew-x-[0deg] grid-rows-[1]'>
+            <img src={"/img/about2.jpg"} alt='About Vision' />
           </div>
         </div>
       </section>
 
-      <section className='about__mission'>
+      <section className='mt-[10rem]'>
         <div className='website_container website_container grid grid-cols-[1fr] md:grid-cols-[40%_50%] gap-8 md:gap-12 lg:gap-[10%]'>
           <div className='about__section-content'>
             <h1 className="mb-[1.2rem] md:mb-8 text-sm-heading-1 lg:text-lg-heading-1 xl:text-xl-heading-1'">
@@ -96,13 +87,8 @@ export default function About() {
               velit tempore illo?
             </p>
           </div>
-          <div className='w-[80%] mx-auto md:w-[60%] overflow-hidden rounded-[50%] skew-x-[15deg] transition-all hover:skew-x-[0deg]'>
-            <Image
-              src={"/img/about3.jpg"}
-              alt='About Mission'
-              width={860}
-              height={700}
-            />
+          <div className='w-[90%] mx-auto overflow-hidden rounded-full skew-x-[15deg] transition-all hover:skew-x-[0deg]'>
+            <img src={"/img/about3.jpg"} alt='About Mission' />
           </div>
         </div>
       </section>

@@ -23,9 +23,9 @@ export default function Header({ title, image, children }: Props) {
           <h2 className='mb-4 text-sm-heading-4 lg:text-lg-heading-4 xl:text-xl-heading-4'>
             {title}
           </h2>
-          <p className='text-[0.85rem] md:text-[1rem] text-[rgba(255,_255,_255,_0.7)]'>
+          <div className='text-[0.85rem] md:text-[1rem] text-[rgba(255,_255,_255,_0.7)]'>
             {children}
-          </p>
+          </div>
         </div>
       </div>
     </header>
