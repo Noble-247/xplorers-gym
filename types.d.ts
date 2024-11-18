@@ -24,3 +24,10 @@ type Testimonials = {
   occupation: string;
   avatar: string;
 };
+
+type GalleryImages = {
+  id: number;
+  image: string;
+  width: number;
+  height: number;
+};

@@ -137,3 +137,22 @@ export const testimonials: Testimonials[] = [
     avatar: "/img/avatar5.jpg",
   },
 ];
+
+// IMAGES FOR THE GALLERY PAGE
+export const GalleryImages: GalleryImages[] = [
+  { id: 1, image: "/img/gallery1.jpg", width: 500, height: 756 },
+  { id: 2, image: "/img/gallery2.jpg", width: 504, height: 756 },
+  { id: 3, image: "/img/gallery3.jpg", width: 504, height: 756 },
+  { id: 4, image: "/img/gallery4.jpg", width: 504, height: 756 },
+  { id: 5, image: "/img/gallery5.jpg", width: 504, height: 756 },
+  { id: 6, image: "/img/gallery6.jpg", width: 504, height: 756 },
+  { id: 7, image: "/img/gallery7.jpg", width: 756, height: 504 },
+  { id: 8, image: "/img/gallery8.jpg", width: 756, height: 504 },
+  { id: 9, image: "/img/gallery9.jpg", width: 756, height: 476 },
+  { id: 10, image: "/img/gallery10.jpg", width: 756, height: 504 },
+  { id: 11, image: "/img/gallery11.jpg", width: 756, height: 504 },
+  { id: 12, image: "/img/gallery12.jpg", width: 756, height: 504 },
+  { id: 13, image: "/img/gallery13.jpg", width: 756, height: 504 },
+  { id: 14, image: "/img/gallery14.jpg", width: 756, height: 504 },
+  { id: 15, image: "/img/gallery15.jpg", width: 756, height: 504 },
+];
