@@ -225,3 +225,91 @@ export const plans: Plans[] = [
     ],
   },
 ];
+
+// DATA OF FITNESS TRAINERS
+export const trainers: Trainers[] = [
+  {
+    id: 1,
+    image: "/img/trainer1.jpg",
+    imageWidth: 900,
+    ImageHeight: 900,
+    name: "John Doe",
+    job: "Aerobic Trainer",
+    socials: [
+      "https://instagram.com/",
+      "https://twitter.com/",
+      "https://facebook.com/",
+      "https://linkedin.com/",
+    ],
+  },
+  {
+    id: 2,
+    image: "/img/trainer2.jpg",
+    imageWidth: 900,
+    ImageHeight: 900,
+    name: "Daniel Craige",
+    job: "Speed Trainer",
+    socials: [
+      "https://instagram.com/",
+      "https://twitter.com/",
+      "https://facebook.com/",
+      "https://linkedin.com/",
+    ],
+  },
+  {
+    id: 3,
+    image: "/img/trainer3.jpg",
+    imageWidth: 900,
+    ImageHeight: 900,
+    name: "Micheal L. Whyte",
+    job: "Flexibility Trainer",
+    socials: [
+      "https://instagram.com/",
+      "https://twitter.com/",
+      "https://facebook.com/",
+      "https://linkedin.com/",
+    ],
+  },
+  {
+    id: 4,
+    image: "/img/trainer4.jpg",
+    imageWidth: 900,
+    ImageHeight: 900,
+    name: "Bobby L. Lashley",
+    job: "Body Composition Trainer",
+    socials: [
+      "https://instagram.com/",
+      "https://twitter.com/",
+      "https://facebook.com/",
+      "https://linkedin.com/",
+    ],
+  },
+  {
+    id: 5,
+    image: "/img/trainer5.jpg",
+    imageWidth: 900,
+    ImageHeight: 900,
+    name: "Diana Ayi",
+    job: "Circuit Trainer",
+    socials: [
+      "https://instagram.com/",
+      "https://twitter.com/",
+      "https://facebook.com/",
+      "https://linkedin.com/",
+    ],
+  },
+  {
+    id: 6,
+    image: "/img/trainer6.jpg",
+    imageWidth: 900,
+    ImageHeight: 900,
+    name: "Wayne Carter",
+    job: "Physical Intelligence Trainer",
+    socials: [
+      "https://instagram.com/",
+      "https://twitter.com/",
+      "https://facebook.com/",
+      "https://linkedin.com/",
+    ],
+  },
+];

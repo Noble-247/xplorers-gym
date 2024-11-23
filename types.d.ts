@@ -45,3 +45,13 @@ type Plans = {
   price: number;
   features: Features[];
 };
+
+type Trainers = {
+  id: number;
+  image: string;
+  imageWidth: number;
+  ImageHeight: number;
+  name: string;
+  job: string;
+  socials: string[];
+};
