@@ -1,6 +1,6 @@
 type Props = {
   className?: string;
-  children: React.ReactElement[];
+  children: React.ReactNode[];
 };
 
 export default function Card({ className, children }: Props) {

@@ -2,6 +2,11 @@ import React, { Fragment } from "react";
 import Header from "../components/Header";
 import { GalleryImages } from "../data";
 import Image from "next/image";
+import { Metadata } from "next/types";
+
+export const metadata: Metadata = {
+  title: "Xplorers Gym | Gallery",
+};
 
 export default function Gallery() {
   return (

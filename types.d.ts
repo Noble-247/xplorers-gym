@@ -31,3 +31,17 @@ type GalleryImages = {
   width: number;
   height: number;
 };
+
+type Features = {
+  id: number;
+  feature: string;
+  available: boolean;
+};
+
+type Plans = {
+  id: number;
+  name: string;
+  description: string;
+  price: number;
+  features: Features[];
+};

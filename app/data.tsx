@@ -156,3 +156,72 @@ export const GalleryImages: GalleryImages[] = [
   { id: 14, image: "/img/gallery14.jpg", width: 756, height: 504 },
   { id: 15, image: "/img/gallery15.jpg", width: 756, height: 504 },
 ];
+
+// THE TRAINING PLANS DATA IN THE PLANS PAGE
+export const plans: Plans[] = [
+  {
+    id: 1,
+    name: "Silver Package",
+    description: "This package is perfect for beginners who need constant help",
+    price: 29.99,
+    features: [
+      { id: 1, feature: "First Feature", available: true },
+      { id: 2, feature: "Second Feature", available: true },
+      { id: 3, feature: "Third Feature", available: true },
+      { id: 4, feature: "Fourth Feature", available: true },
+      { id: 5, feature: "Fifth Feature", available: true },
+      { id: 6, feature: "Fifth Feature Plus", available: false },
+      { id: 7, feature: "Sixth Feature", available: false },
+      { id: 8, feature: "Seventh Feature", available: false },
+      { id: 9, feature: "Seventh Feature Plus", available: false },
+      { id: 10, feature: "Eighth Feature", available: false },
+      { id: 11, feature: "Ninth Feature", available: false },
+      { id: 12, feature: "Tenth Feature", available: false },
+      { id: 13, feature: "Eleventh Feature", available: false },
+    ],
+  },
+  {
+    id: 2,
+    name: "Gold Package",
+    description:
+      "This is the perfect package for beginners who know what their doing",
+    price: 49.99,
+    features: [
+      { id: 1, feature: "First Feature", available: true },
+      { id: 2, feature: "Second Feature", available: true },
+      { id: 3, feature: "Third Feature", available: true },
+      { id: 4, feature: "Fourth Feature", available: true },
+      { id: 5, feature: "Fifth Feature", available: true },
+      { id: 6, feature: "Fifth Feature Plus", available: true },
+      { id: 7, feature: "Sixth Feature", available: true },
+      { id: 8, feature: "Seventh Feature", available: true },
+      { id: 9, feature: "Seventh Feature Plus", available: true },
+      { id: 10, feature: "Eighth Feature", available: false },
+      { id: 11, feature: "Ninth Feature", available: false },
+      { id: 12, feature: "Tenth Feature", available: false },
+      { id: 13, feature: "Eleventh Feature", available: false },
+    ],
+  },
+  {
+    id: 3,
+    name: "Platinum Package",
+    description:
+      "This package is perfect for busy people who need home service",
+    price: 89.99,
+    features: [
+      { id: 1, feature: "First Feature", available: true },
+      { id: 2, feature: "Second Feature", available: true },
+      { id: 3, feature: "Third Feature", available: true },
+      { id: 4, feature: "Fourth Feature", available: true },
+      { id: 5, feature: "Fifth Feature", available: true },
+      { id: 6, feature: "Fifth Feature Plus", available: true },
+      { id: 7, feature: "Sixth Feature", available: true },
+      { id: 8, feature: "Seventh Feature", available: true },
+      { id: 9, feature: "Seventh Feature Plus", available: true },
+      { id: 10, feature: "Eighth Feature", available: true },
+      { id: 11, feature: "Ninth Feature", available: true },
+      { id: 12, feature: "Tenth Feature", available: true },
+      { id: 13, feature: "Eleventh Feature", available: true },
+    ],
+  },
+];
