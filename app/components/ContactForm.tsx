@@ -9,7 +9,7 @@ const ContactForm: React.FC = () => {
   if (state.succeeded) {
     return (
       <div className='flex justify-center items-center min-h-screen bg-transparent'>
-        <div className='text-center bg-gray-600 p-6 rounded-lg shadow-md'>
+        <div className='text-center bg-bulls-eye p-6 rounded-lg shadow-md'>
           <h2 className='text-2xl font-bold text-gray-100 mb-4'>
             Thank you for your message!
           </h2>
@@ -27,7 +27,7 @@ const ContactForm: React.FC = () => {
         onSubmit={handleSubmit}
         className='w-full max-w-lg bg-bulls-eye shadow-md border-gray-100 rounded-lg p-6'
       >
-        <h2 className='text-2xl font-bold text-gray-100 mb-4'>Contact Us</h2>
+        <h2 className='text-2xl font-bold text-gray-100 my-6'>Contact Us</h2>
 
         {/* Name Field */}
         <div className='mb-6'>
