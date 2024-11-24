@@ -9,7 +9,7 @@ const ContactForm: React.FC = () => {
   if (state.succeeded) {
     return (
       <div className='flex justify-center items-center min-h-screen bg-transparent'>
-        <div className='text-center bg-gray-800 p-6 rounded-lg shadow-md'>
+        <div className='text-center bg-gray-600 p-6 rounded-lg shadow-md'>
           <h2 className='text-2xl font-bold text-gray-100 mb-4'>
             Thank you for your message!
           </h2>
@@ -25,14 +25,14 @@ const ContactForm: React.FC = () => {
     <div className='flex justify-center items-center min-h-screen bg-transparent p-6'>
       <form
         onSubmit={handleSubmit}
-        className='w-full max-w-lg bg-white shadow-md rounded-lg p-6'
+        className='w-full max-w-lg bg-bulls-eye shadow-md border-gray-100 rounded-lg p-6'
       >
-        <h2 className='text-2xl font-bold text-gray-800 mb-4'>Contact Us</h2>
+        <h2 className='text-2xl font-bold text-gray-100 mb-4'>Contact Us</h2>
 
         {/* Name Field */}
-        <div className='mb-4'>
+        <div className='mb-6'>
           <label
-            className='block text-gray-700 text-sm font-medium mb-2'
+            className='block text-gray-100 font-medium mb-2'
             htmlFor='name'
           >
             Name
@@ -41,7 +41,7 @@ const ContactForm: React.FC = () => {
             id='name'
             type='text'
             name='name'
-            className='w-full px-4 py-2 border rounded-lg border-gray-300 focus:outline-none focus:ring-2 focus:ring-primary'
+            className='w-full px-6 py-4 border rounded-lg border-gray-100 focus:outline-none focus:ring-2 focus:ring-gray-100 bg-transparent text-gray-100'
             placeholder='Your Name'
             required
           />
@@ -54,9 +54,9 @@ const ContactForm: React.FC = () => {
         </div>
 
         {/* Email Field */}
-        <div className='mb-4'>
+        <div className='mb-6'>
           <label
-            className='block text-gray-700 text-sm font-medium mb-2'
+            className='block text-gray-100 font-medium mb-2'
             htmlFor='email'
           >
             Email
@@ -65,7 +65,7 @@ const ContactForm: React.FC = () => {
             id='email'
             type='email'
             name='email'
-            className='w-full px-4 py-2 border rounded-lg border-gray-300 focus:outline-none focus:ring-2 focus:ring-primary'
+            className='w-full px-6 py-4 border rounded-lg border-gray-100 focus:outline-none focus:ring-2 focus:ring-gray-100 bg-transparent text-gray-100'
             placeholder='Your Email'
             required
           />
@@ -78,9 +78,9 @@ const ContactForm: React.FC = () => {
         </div>
 
         {/* Subject Field */}
-        <div className='mb-4'>
+        <div className='mb-6'>
           <label
-            className='block text-gray-700 text-sm font-medium mb-2'
+            className='block text-gray-100 font-medium mb-2'
             htmlFor='subject'
           >
             Subject
@@ -89,7 +89,7 @@ const ContactForm: React.FC = () => {
             id='subject'
             type='text'
             name='subject'
-            className='w-full px-4 py-2 border rounded-lg border-gray-300 focus:outline-none focus:ring-2 focus:ring-primary'
+            className='w-full px-6 py-4 border rounded-lg border-gray-100 focus:outline-none focus:ring-2 focus:ring-gray-100 bg-transparent text-gray-100'
             placeholder='Subject'
             required
           />
@@ -102,9 +102,9 @@ const ContactForm: React.FC = () => {
         </div>
 
         {/* Message Field */}
-        <div className='mb-4'>
+        <div className='mb-6'>
           <label
-            className='block text-gray-700 text-sm font-medium mb-2'
+            className='block text-gray-100 font-medium mb-2'
             htmlFor='message'
           >
             Message
@@ -113,7 +113,7 @@ const ContactForm: React.FC = () => {
             id='message'
             name='message'
             rows={5}
-            className='w-full px-4 py-2 border rounded-lg border-gray-300 focus:outline-none focus:ring-2 focus:ring-primary'
+            className='w-full px-6 py-4 border rounded-lg border-gray-100 focus:outline-none focus:ring-2 focus:ring-gray-100 bg-transparent text-gray-100'
             placeholder='Your Message'
             required
           />
@@ -129,7 +129,7 @@ const ContactForm: React.FC = () => {
         <div className='mt-4'>
           <button
             type='submit'
-            className='w-full bg-primary text-white py-2 px-4 rounded-lg hover:bg-primary transition duration-300'
+            className='w-full bg-primary text-white py-4 px-6 rounded-lg hover:bg-transparent hover:border hover:border-gray-100 transition duration-300'
             disabled={state.submitting}
           >
             {state.submitting ? "Sending..." : "Send Message"}
