@@ -7,14 +7,14 @@ export default function MainHeader() {
       <div className='website_container grid grid-cols-[1fr] lg:gap-0 lg:grid-cols-[1fr_1fr] xl:h-full xl:items-center xl:gap-24'>
         <div className='mt-[-3rem]'>
           <h4 className='text-sm-heading-4 lg:text-lg-heading-4 xl:text-xl-heading-4 text-secondary font-medium mb-[1rem]'>
-            #100DaysOfWorkout
+            #GetFitStayFit
           </h4>
           <h1 className='text-sm-heading-1 lg:text-lg-heading-1 xl:text-xl-heading-1'>
             Join The Legends Of The Fitness World
           </h1>
           <p className='mt-[1rem] mx-0 mb-[3.5rem]'>
-            Lorem ipsum dolor sit amet consectetur, adipisicing elit. Non, odio!
-            Dolorum optio repellat quam nisi explicabo enim maiore.
+            Welcome to Xplorers Gym, where we think that fitness is about
+            creating a lifestyle rather than just working out.
           </p>
           <Link
             href={"/plans"}

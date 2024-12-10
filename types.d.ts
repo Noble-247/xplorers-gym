@@ -3,6 +3,7 @@ type Programs = {
   title: string;
   info: string;
   path: string;
+  icon: React.ReactNode;
 };
 
 type Values = {
