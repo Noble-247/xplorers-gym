@@ -17,9 +17,11 @@ export default function Footer() {
             />
           </Link>
           <p className='text-center md:text-start'>
-            Lorem ipsum dolor, sit amet consectetur adipisicing elit. Esse,
-            suscipit nobis. Reprehenderit placeat ipsum deleniti excepturi qui
-            enim laborum labore, repellendus voluptas voluptate aspernatur.
+            With over 200 professionally certified personal trainers,
+            ultra-modern gym facilities, and over 40 free fitness classes
+            weekly, we provide our members with a holistic experience that fits
+            and supports their fitness lifestyle. We are the leading and
+            fastest-growing fitness chain in the industry.
           </p>
           <div className='mt-6 flex gap-4 items-center'>
             <a
