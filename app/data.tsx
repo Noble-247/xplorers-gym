@@ -1,78 +1,10 @@
-// THE VALUES DATA IN THE HOME PAGE
-export const values: Values[] = [
-  {
-    id: 1,
-    title: "Value One",
-    description:
-      "Placeat quidem facere dicta modi? Pariatur exercitationem illum.",
-  },
-  {
-    id: 2,
-    title: "Value Two",
-    description:
-      "Placeat quidem facere dicta modi? Pariatur exercitationem illum.",
-  },
-  {
-    id: 3,
-    title: "Value Three",
-    description:
-      "Placeat quidem facere dicta modi? Pariatur exercitationem illum.",
-  },
-  {
-    id: 4,
-    title: "Value Four",
-    description:
-      "Placeat quidem facere dicta modi? Pariatur exercitationem illum.",
-  },
-];
-
-// THE FAQ DATA (QUESTIONS AND ANSWER) IN THE HOME PAGE
-export const faqs: Faqs[] = [
-  {
-    id: 1,
-    question: "How often should I exercise?",
-    answer:
-      "Consectetur adipisicing elit. Non ipsa dolorem, rem consequatur eum omnis ex, fuga temporibus qui nesciunt odio aliquam commodi culpa inventore ut similique repellendus perferendis sint!",
-  },
-  {
-    id: 2,
-    question: "What time of day is best to work out?",
-    answer:
-      "Distinctio nihil blanditiis accusantium atque, quo maxime inventore eum! Cum dolorem quibusdam amet et qui. Eos, omnis beatae? Quas, est at! Molestiae quidem ab soluta exercitationem culpa nostrum iusto illum qui non a harum deserunt atque commodi at velit.",
-  },
-  {
-    id: 3,
-    question: "How long should my workouts be?",
-    answer:
-      "In publishing and graphic design, Lorem ipsum is a placeholder text commonly used to demonstrate the visual form of a document or a typeface without relying on meaningful content.",
-  },
-  {
-    id: 4,
-    question: "Do I need to warm up before my workouts?",
-    answer:
-      "Molestiae quidem ab soluta exercitationem culpa nostrum iusto illum qui non a harum deserunt atque commodi at velit, consequatur quibusdam dignissimos cum labore possimus placeat consectetur nisi cupiditate? Qui totam est omnis dolor nobis quisquam veritatis a!",
-  },
-  {
-    id: 5,
-    question: "Should I do strength training, cardio or both?",
-    answer:
-      "Maiores fuga, cum praesentium esse laudantium! Distinctio nihil blanditiis accusantium atque, quo maxime inventore eum! Cum dolorem quibusdam amet et qui.",
-  },
-  {
-    id: 6,
-    question: "Should I lift weights for strength training?",
-    answer:
-      "Quas, est at! Molestiae quidem ab soluta exercitationem culpa nostrum iusto illum qui non a harum deserunt atque commodi at velit, consequatur quibusdam dignissimos cum labore possimus placeat consectetur nisi cupiditate.",
-  },
-];
-
 // THE TESTIMONIAL DATA IN THE HOME PAGE
 export const testimonials: Testimonials[] = [
   {
     id: 1,
     name: "Diana Ayi",
     quote:
-      "Lorem ipsum dolor sit amet consectetur adipisicing elit. Praesentium ipsam facere ea a laboriosam sed? Quod vel voluptates a! Maxime minima cumque aut? In expedita numquam consectetur non officia iusto.",
+      "I've been a member of this gym for over a year now, and I can honestly say it's been a game-changer for my fitness journey. The facilities are top-notch, and the staff is always friendly and supportive. I've lost over 20 pounds and gained so much confidence. Thank you!",
     occupation: "Student",
     avatar: "/img/avatar1.jpg",
   },
@@ -80,7 +12,7 @@ export const testimonials: Testimonials[] = [
     id: 2,
     name: "Daniel Vinyo",
     quote:
-      "Harum quaerat hic consequuntur molestias repellat ad quo tenetur vitae rem, labore quisquam? Atque, assumenda rerum this and that odit harum quaerat hic praesentium quisquam quae, enim iste ipsam id repellat.",
+      "As a busy professional, I was struggling to find time to work out. But this gym's flexible hours and convenient location made it easy for me to fit in a workout on my lunch break. The personal training sessions have also been incredibly helpful in helping me reach my goals. Highly recommend!",
     occupation: "Software Egineer",
     avatar: "/img/avatar2.jpg",
   },
@@ -88,7 +20,7 @@ export const testimonials: Testimonials[] = [
     id: 3,
     name: "Edem Quist",
     quote:
-      "Quaerat hic praesentium consequuntur molestias repellat ad quo tenetur vitae rem, labore quisquam? Atque, assumenda rerum odit harum quaerat hic praesentium quisquam quae, enim iste ipsam id repellat.",
+      "I was hesitant to join a gym because I'm not exactly a 'gym person.' But from the moment I walked in, I felt welcome and supported. The group fitness classes are so much fun, and the instructors are all super knowledgeable and encouraging. I've never felt more motivated to take care of my body. Thanks for creating such a positive and inclusive environment!",
     occupation: "University Lecturer",
     avatar: "/img/avatar3.jpg",
   },
@@ -96,7 +28,7 @@ export const testimonials: Testimonials[] = [
     id: 4,
     name: "Grace Lavoe",
     quote:
-      "Cupiditate deleniti sint consequuntur molestias repellat ad quo tenetur vitae rem, labore quisquam? Atque, assumenda rerum odit harum quaerat hic praesentium quisquam quae, enim iste ipsam id repellat.",
+      "I've tried several gyms in the past, but this one is hands-down the best. The equipment is always clean and well-maintained, and the staff is always happy to help with any questions or concerns. Plus, the views from the treadmills are amazing! I feel like I'm getting a great workout and enjoying the scenery at the same time. Win-win!",
     occupation: "Talking Parrot",
     avatar: "/img/avatar4.jpg",
   },
@@ -104,7 +36,7 @@ export const testimonials: Testimonials[] = [
     id: 5,
     name: "Nana Yaa Dankwa",
     quote:
-      "Maxime minima cumque sit amet consectetur adipisicing elit. Praesentium ipsam facere ea a laboriosam sed? Quod vel voluptates a! Maxime minima cumque aut? In expedita numquam consectetur non officia iusto.",
+      "As someone who's struggled with chronic pain, I was skeptical about joining a gym. But the trainers here have been amazing in helping me modify exercises to accommodate my limitations. The small group training sessions have also been really helpful in keeping me motivated and accountable. I've already seen a significant reduction in my pain levels, and I'm so grateful to have found this gym!",
     occupation: "Pharmacist",
     avatar: "/img/avatar5.jpg",
   },

@@ -21,7 +21,7 @@ export default function FAQ({ question, answer }: Props) {
       onClick={() => showAndHideAnswers()}
     >
       <div className='flex justify-between items-center'>
-        <h4>{question}</h4>
+        <p className='uppercase font-semibold'>{question}</p>
         <button className='bg-transparent text-gray-100 text-[1.5rem]'>
           {isAnswerShowing ? <AiOutlineMinus /> : <AiOutlinePlus />}
         </button>
