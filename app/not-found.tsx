@@ -7,9 +7,9 @@ export const metadata: Metadata = {
 
 export default function NotFound() {
   return (
-    <main className='h-screen flex justify-center justify-items-center border-4 border-white'>
-      <section className='sm:w-[90%] md:w-[80%] text-center px-[1rem] md:px-[8rem] mx-auto border-2 border-primary py'>
-        <h2 className='mt-[50%] sm:mt-[33%] md:mt-[50%] font-bold text-gray-100 text-small-heading-2 sm:text-medium-heading-1 md:text-heading-2'>
+    <main className='flex min-h-screen items-center justify-center p-6'>
+      <section className='sm:w-[90%] md:w-[80%] text-center px-[1rem] md:px-[8rem] mx-auto'>
+        <h2 className='font-bold text-gray-100 text-small-heading-2 lg:text-lg-heading-2 xl:text-xl-heading-2'>
           Page Not Found
         </h2>
         <p className='mt-[2rem] block'>
