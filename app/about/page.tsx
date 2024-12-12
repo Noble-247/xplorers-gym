@@ -1,6 +1,6 @@
 /* eslint-disable @next/next/no-img-element */
 import { Metadata } from "next/types";
-import React, { Fragment } from "react";
+import { Fragment } from "react";
 import Header from "../components/Header";
 /* import Image from "next/image"; */
 
@@ -13,10 +13,13 @@ export default function About() {
     <Fragment>
       <Header title='About Us' image={"/img/header_bg_1.jpg"}>
         <p>
-          Lorem ipsum dolor sit amet consectetur adipisicing elit. Nobis vitae
-          tenetur repellat eius laboriosam sed cupiditate magni? Alias molestiae
-          asperiores dolorum vel, sapiente suscipit minus ducimus quas
-          voluptatibus corrupti nisi!
+          Xplorers Gym emphasizes fitness as a journey of personal development,
+          offering a unique environment for members to push themselves, gain
+          confidence, and enjoy the process. The gym provides a unique ambiance
+          with panoramic views of Lagos&apos;s cityscape and tranquil shoreline,
+          making each session inspiring and rewarding. Whether lifting weights,
+          running on the treadmill, or attending a group class, Xplorers Gym is
+          an inspiring and rewarding experience.
         </p>
       </Header>
 
@@ -30,18 +33,22 @@ export default function About() {
               Our Story
             </h1>
             <p className='mb-4'>
-              Lorem ipsum dolor sit amet consectetur, adipisicing elit. Nemo
-              odit ex ullam, velit ipsum vero fuga dolor unde voluptas est amet,
-              odio modi facilis nam sint at! Praesentium, facere harum?
+              At Xplorers Gym, we believe that fitness is a journey, not a
+              destination. Our story began with a passion for helping people
+              achieve their health and wellness goals. Our founders, Xplorers
+              Group, were driven by a desire to create a supportive and
+              inclusive community that would inspire and motivate individuals to
+              reach their full potential.
             </p>
             <p className='mb-4'>
-              Lorem ipsum dolor sit amet consectetur adipisicing elit.
-              Voluptatum accusantium qui quam deleniti nam possimus dolore, quis
-              velit tempore illo?
+              With years of experience in the fitness industry, our team has
+              worked tirelessly to create a state-of-the-art facility that
+              offers a wide range of equipment, classes, and programs tailored
+              to meet the diverse needs of our members.
             </p>
             <p className='mb-4'>
-              Lorem ipsum dolor sit amet consectetur adipisicing elit. Dolor,
-              illum.
+              From beginners to seasoned athletes, we welcome everyone with open
+              arms and a commitment to helping them achieve their fitness goals.
             </p>
           </div>
         </div>
@@ -54,14 +61,18 @@ export default function About() {
               Our Vision
             </h1>
             <p className='mb-4'>
-              Lorem ipsum dolor sit amet consectetur, adipisicing elit. Nemo
-              odit ex ullam, velit ipsum vero fuga dolor unde voluptas est amet,
-              odio modi facilis nam sint at! Praesentium, facere harum?
+              At Xplorers Gym, our vision is to empower individuals to take
+              control of their health and wellness, and to provide a supportive
+              community that inspires and motivates them to reach their full
+              potential. We envision a future where everyone has access to
+              quality fitness programs, expert guidance, and a supportive
+              community that helps them achieve their goals.
             </p>
             <p className='mb-4'>
-              Lorem ipsum dolor sit amet consectetur adipisicing elit.
-              Voluptatum accusantium qui quam deleniti nam possimus dolore, quis
-              velit tempore illo?
+              We strive to create a culture that values inclusivity, diversity,
+              and mutual respect. We believe that fitness should be enjoyable,
+              accessible, and rewarding for everyone, regardless of their age,
+              ability, or background.
             </p>
           </div>
           <div className='w-[90%] mx-auto overflow-hidden rounded-full skew-x-[-15deg] transition-all hover:skew-x-[0deg] grid-rows-[1]'>
@@ -77,15 +88,36 @@ export default function About() {
               Our Mission
             </h1>
             <p className='mb-4'>
-              Lorem ipsum dolor sit amet consectetur, adipisicing elit. Nemo
-              odit ex ullam, velit ipsum vero fuga dolor unde voluptas est amet,
-              odio modi facilis nam sint at! Praesentium, facere harum?
+              Our mission is to provide a world-class fitness experience that
+              inspires, motivates, and supports our members in achieving their
+              health and wellness goals. We are committed to delivering
+              exceptional service, expert guidance, and a supportive community
+              that helps our members succeed.
             </p>
-            <p className='mb-4'>
-              Lorem ipsum dolor sit amet consectetur adipisicing elit.
-              Voluptatum accusantium qui quam deleniti nam possimus dolore, quis
-              velit tempore illo?
-            </p>
+            <div className='mb-4'>
+              We promise to:
+              <ul>
+                <li>
+                  - Provide a clean, safe, and welcoming environment for all
+                  members
+                </li>
+                <li>
+                  - Offer a wide range of equipment, classes, and programs
+                  tailored to meet the diverse needs of our members
+                </li>
+                <li>
+                  - Employ expert trainers and staff who are passionate about
+                  helping our members achieve their goals
+                </li>
+                <li>
+                  - Foster a supportive community that inspires and motivates
+                  our members to reach their full potential
+                </li>
+              </ul>
+              By joining [Gym Name], you become part of a vibrant community that
+              shares your passion for fitness and wellness. Together, let&apos;s
+              achieve great things!
+            </div>
           </div>
           <div className='w-[90%] mx-auto overflow-hidden rounded-full skew-x-[15deg] transition-all hover:skew-x-[0deg]'>
             <img src={"/img/about3.jpg"} alt='About Mission' />
