@@ -33,22 +33,13 @@ export default function About() {
               Our Story
             </h1>
             <p className='mb-4'>
-              At Xplorers Gym, we believe that fitness is a journey, not a
-              destination. Our story began with a passion for helping people
-              achieve their health and wellness goals. Our founders, Xplorers
-              Group, were driven by a desire to create a supportive and
-              inclusive community that would inspire and motivate individuals to
-              reach their full potential.
-            </p>
-            <p className='mb-4'>
-              With years of experience in the fitness industry, our team has
-              worked tirelessly to create a state-of-the-art facility that
-              offers a wide range of equipment, classes, and programs tailored
-              to meet the diverse needs of our members.
-            </p>
-            <p className='mb-4'>
-              From beginners to seasoned athletes, we welcome everyone with open
-              arms and a commitment to helping them achieve their fitness goals.
+              Xplorers Gym is a fitness community founded by Xplorers Group,
+              aiming to inspire and motivate individuals to reach their full
+              potential. With years of experience, the gym offers a wide range
+              of equipment, classes, and programs tailored to meet the diverse
+              needs of its members. Whether you&apos;re a beginner or an
+              athlete, the gym welcomes everyone with open arms and a commitment
+              to helping you achieve your fitness goals.
             </p>
           </div>
         </div>
@@ -61,18 +52,12 @@ export default function About() {
               Our Vision
             </h1>
             <p className='mb-4'>
-              At Xplorers Gym, our vision is to empower individuals to take
-              control of their health and wellness, and to provide a supportive
-              community that inspires and motivates them to reach their full
-              potential. We envision a future where everyone has access to
+              Xplorers Gym aims to empower individuals to manage their health
+              and wellness, providing a supportive community for personal
+              growth. They envision a future where everyone has access to
               quality fitness programs, expert guidance, and a supportive
-              community that helps them achieve their goals.
-            </p>
-            <p className='mb-4'>
-              We strive to create a culture that values inclusivity, diversity,
-              and mutual respect. We believe that fitness should be enjoyable,
-              accessible, and rewarding for everyone, regardless of their age,
-              ability, or background.
+              environment, valuing inclusivity, diversity, and mutual respect.
+              Fitness should be enjoyable, accessible, and rewarding for all.
             </p>
           </div>
           <div className='w-[90%] mx-auto overflow-hidden rounded-full skew-x-[-15deg] transition-all hover:skew-x-[0deg] grid-rows-[1]'>
@@ -88,36 +73,14 @@ export default function About() {
               Our Mission
             </h1>
             <p className='mb-4'>
-              Our mission is to provide a world-class fitness experience that
-              inspires, motivates, and supports our members in achieving their
-              health and wellness goals. We are committed to delivering
-              exceptional service, expert guidance, and a supportive community
-              that helps our members succeed.
+              Xplorers Gym has a mission to provide a top-notch fitness
+              experience that motivates and supports members in achieving their
+              health and wellness goals. We promise a clean, safe environment, a
+              variety of equipment, classes, and programs, expert trainers, and
+              a supportive community. By joining Xplorers Gym, members become
+              part of a vibrant community that shares their passion for fitness
+              and wellness, working together to achieve great things.
             </p>
-            <div className='mb-4'>
-              We promise to:
-              <ul>
-                <li>
-                  - Provide a clean, safe, and welcoming environment for all
-                  members
-                </li>
-                <li>
-                  - Offer a wide range of equipment, classes, and programs
-                  tailored to meet the diverse needs of our members
-                </li>
-                <li>
-                  - Employ expert trainers and staff who are passionate about
-                  helping our members achieve their goals
-                </li>
-                <li>
-                  - Foster a supportive community that inspires and motivates
-                  our members to reach their full potential
-                </li>
-              </ul>
-              By joining [Gym Name], you become part of a vibrant community that
-              shares your passion for fitness and wellness. Together, let&apos;s
-              achieve great things!
-            </div>
           </div>
           <div className='w-[90%] mx-auto overflow-hidden rounded-full skew-x-[15deg] transition-all hover:skew-x-[0deg]'>
             <img src={"/img/about3.jpg"} alt='About Mission' />
