@@ -44,7 +44,7 @@ type Plans = {
   id: number;
   name: string;
   description: string;
-  price: number;
+  price: string;
   features: Features[];
 };
 

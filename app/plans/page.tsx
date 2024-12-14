@@ -13,8 +13,10 @@ export default function Plans() {
   return (
     <Fragment>
       <Header title='Membership Plans' image={"/img/header_bg_4.jpg"}>
-        Lorem ipsum dolor sit amet consectetur, adipisicing elit. Consequuntur
-        laboriosam, maxime dolorem voluptates illo adipisci?
+        Find the membership plan that fits your busy schedule. Whether you’re
+        looking for flexible day access, monthly plans, or family packages,
+        we’ve got options for every budget. No matter your choice, you’re one
+        step closer to a healthier you.
       </Header>
       <section className='mt-[10rem]'>
         <div className='website_container grid grid-cols-[1fr] gap-[1rem] md:grid-cols-[1fr_1fr] md:gap-[2rem] lg:grid-cols-[repeat(3,_1fr)] lg:gap-[3rem]'>
@@ -24,10 +26,10 @@ export default function Plans() {
                 {plan.name}
               </h3>
               <small className='mb-[2rem] block'>{plan.description}</small>
-              <h1 className='text-sm-heading-1 lg:text-lg-heading-1 xl:text-xl-heading-1 text-primary inline'>{`$${plan.price}`}</h1>
-              <h2 className='ext-sm-heading-2 lg:text-lg-heading-2 xl:text-xl-heading-2 inline text-gray-400'>
+              <h1 className='text-sm-heading-1 lg:text-lg-heading-1 xl:text-xl-heading-1 text-primary inline'>{`${plan.price}`}</h1>
+              {/* <h2 className='ext-sm-heading-2 lg:text-lg-heading-2 xl:text-xl-heading-2 inline text-gray-400'>
                 /mo
-              </h2>
+              </h2> */}
               <h4 className='ext-sm-heading-4 lg:text-lg-heading-4 xl:text-xl-heading-4 mt-[2rem]'>
                 Features
               </h4>
