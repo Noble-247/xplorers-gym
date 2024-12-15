@@ -43,7 +43,8 @@ type Features = {
 type Plans = {
   id: number;
   name: string;
-  description: string;
+  description1: string;
+  description2: string;
   price: string;
   features: Features[];
 };

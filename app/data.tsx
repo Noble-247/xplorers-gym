@@ -66,8 +66,8 @@ export const plans: Plans[] = [
   {
     id: 1,
     name: "Monthly Plan",
-    description:
-      "Discounted one time joining fee- N18,896. Total Fee For New Member - N57,881",
+    description1: "Discounted one time joining fee- N18,896.",
+    description2: "Total Fee For New Member - N57,881",
     price: "N38,985",
     features: [
       { id: 1, feature: " 5% off when you pay online.", available: true },
@@ -80,21 +80,13 @@ export const plans: Plans[] = [
           "Minimum of 5 days and maximum of 20 days Freeze Subscription Request.",
         available: true,
       },
-      /* { id: 6, feature: "Fifth Feature Plus", available: false },
-      { id: 7, feature: "Sixth Feature", available: false },
-      { id: 8, feature: "Seventh Feature", available: false },
-      { id: 9, feature: "Seventh Feature Plus", available: false },
-      { id: 10, feature: "Eighth Feature", available: false },
-      { id: 11, feature: "Ninth Feature", available: false },
-      { id: 12, feature: "Tenth Feature", available: false },
-      { id: 13, feature: "Eleventh Feature", available: false }, */
     ],
   },
   {
     id: 2,
     name: "Quarterly Plan",
-    description:
-      "Discounted one time joining fee - N18,896. Total Fee For New Member - N117,851",
+    description1: "Discounted one time joining fee - N18,896.",
+    description2: "Total Fee For New Member - N117,851",
     price: "N98,955",
     features: [
       { id: 1, feature: " 5% off when you pay online.", available: true },
@@ -107,21 +99,13 @@ export const plans: Plans[] = [
           "Minimum of 5 days and maximum of 20 days Freeze Subscription Request.",
         available: true,
       },
-      /*  { id: 6, feature: "Fifth Feature Plus", available: true },
-      { id: 7, feature: "Sixth Feature", available: true },
-      { id: 8, feature: "Seventh Feature", available: true },
-      { id: 9, feature: "Seventh Feature Plus", available: true },
-      { id: 10, feature: "Eighth Feature", available: false },
-      { id: 11, feature: "Ninth Feature", available: false },
-      { id: 12, feature: "Tenth Feature", available: false },
-      { id: 13, feature: "Eleventh Feature", available: false }, */
     ],
   },
   {
     id: 3,
     name: "Yearly Plan",
-    description:
-      "Discounted one time joining fee - N18,896. Total Fee For New Member - N396,716",
+    description1: "Discounted one time joining fee - N18,896.",
+    description2: "Total Fee For New Member - N396,716.",
     price: "N377,820",
     features: [
       { id: 1, feature: " 5% off when you pay online.", available: true },
@@ -134,14 +118,6 @@ export const plans: Plans[] = [
           "Minimum of 5 days and maximum of 20 days Freeze Subscription Request.",
         available: true,
       },
-      /*  { id: 6, feature: "Fifth Feature Plus", available: true },
-      { id: 7, feature: "Sixth Feature", available: true },
-      { id: 8, feature: "Seventh Feature", available: true },
-      { id: 9, feature: "Seventh Feature Plus", available: true },
-      { id: 10, feature: "Eighth Feature", available: true },
-      { id: 11, feature: "Ninth Feature", available: true },
-      { id: 12, feature: "Tenth Feature", available: true },
-      { id: 13, feature: "Eleventh Feature", available: true }, */
     ],
   },
 ];

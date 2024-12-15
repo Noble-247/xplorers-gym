@@ -8,9 +8,11 @@ import { trainers } from "../data";
 export default function Trainers() {
   return (
     <Fragment>
-      <Header title='Our Trainers' image={"/img//header_bg_5.jpg"}>
-        Lorem ipsum dolor sit amet consectetur adipisicing elit. Quis hic,
-        adipisci maiores a sed atque.
+      <Header title='Meet Our Expert Trainers' image={"/img/header_bg_5.jpg"}>
+        Our gym instructors are dedicated professionals who will help you reach
+        your fitness goals. With years of experience and specialized training,
+        they&apos;ll guide you through personalized workouts and provide support
+        every step of the way.
       </Header>
       <section className='mt-[10rem]'>
         <div className='website_container grid grid-cols-[1fr] gap-[2rem] md:grid-cols-[1fr_1fr] md:gap-[2.5rem] lg:grid-cols-[repeat(3,_1fr)] lg:gap-[4rem]'>

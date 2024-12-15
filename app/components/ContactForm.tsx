@@ -27,7 +27,13 @@ const ContactForm: React.FC = () => {
         onSubmit={handleSubmit}
         className='w-full max-w-lg bg-bulls-eye shadow-md border-gray-300 rounded-lg p-6'
       >
-        <h2 className='text-2xl font-bold text-gray-300 my-6'>Contact Us</h2>
+        <div className='text-gray-300 my-6'>
+          <h2 className='text-2xl font-bold'>Contact Us</h2>
+          <small>
+            Use the form below to send us a message. We&apos;ll get back to you
+            as soon as possible.
+          </small>
+        </div>
 
         {/* Name Field */}
         <div className='mb-6'>

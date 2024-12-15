@@ -25,7 +25,8 @@ export default function Plans() {
               <h3 className='text-sm-heading-3 lg:text-lg-heading-3 xl:text-xl-heading-3 mb-[0.8rem]'>
                 {plan.name}
               </h3>
-              <small className='mb-[2rem] block'>{plan.description}</small>
+              <small className='block'>{plan.description1}</small>
+              <small className='mb-[2rem] block'>{plan.description2}</small>
               <h1 className='text-sm-heading-1 lg:text-lg-heading-1 xl:text-xl-heading-1 text-primary inline'>{`${plan.price}`}</h1>
               {/* <h2 className='ext-sm-heading-2 lg:text-lg-heading-2 xl:text-xl-heading-2 inline text-gray-400'>
                 /mo

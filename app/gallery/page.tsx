@@ -13,9 +13,10 @@ export default function Gallery() {
     <Fragment>
       <Header title='Our Gallery' image={"/img/header_bg_3.jpg"}>
         <p>
-          Lorem ipsum dolor sit amet consectetur adipisicing elit. Similique,
-          dolore dolores! Dolore, voluptatibus ipsum. Accusantium sit quod
-          aliquid.
+          Our gallery showcases the vibrant energy, state-of-the-art equipment,
+          and welcoming environment that makes our gym unique. From dynamic
+          group classes to cutting-edge workout spaces, get a feel for the space
+          that helps our members reach their fitness goals
         </p>
       </Header>
       <section className='mt-[10rem]'>

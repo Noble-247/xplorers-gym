@@ -81,9 +81,7 @@ export default function Footer() {
         </article>
       </div>
       <div className='text-gray-100 text-center p-[1.5rem_0] bg-bulls-eye mt-20'>
-        <small>
-          2024 Emmatech Digital Solutions &copy; All Rights Reserved
-        </small>
+        <small>2024 Xplorers Fitness Gym &copy; All Rights Reserved</small>
       </div>
     </footer>
   );
